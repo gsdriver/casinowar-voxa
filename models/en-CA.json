@@ -1,0 +1,184 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "casino war",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "HighScoreIntent",
+          "slots": [],
+          "samples": [
+            "read high scores",
+            "tell me high scores",
+            "what are the high scores",
+            "what is the leader board",
+            "read leader board",
+            "say high scores",
+            "say leader board"
+          ]
+        },
+        {
+          "name": "BetIntent",
+          "slots": [
+            {
+              "name": "Amount",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "bet {Amount}",
+            "play {Amount}",
+            "bet for {Amount}",
+            "play for {Amount}",
+            "bet {Amount} dollars",
+            "play {Amount} dollars",
+            "bet for {Amount} dollars",
+            "play for {Amount} dollars",
+            "bet {Amount} dollar",
+            "play {Amount} dollar",
+            "bet for {Amount} dollar",
+            "play for {Amount} dollar",
+            "do bet",
+            "do deal",
+            "deal",
+            "bet"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "PlaceSideBetIntent",
+          "slots": [
+            {
+              "name": "Amount",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "place {Amount} dollar side bet",
+            "place a {Amount} dollar side bet",
+            "make {Amount} dollar side bet",
+            "make a {Amount} dollar side bet",
+            "do {Amount} dollar side bet",
+            "place {Amount} dollar tie bet",
+            "place a {Amount} dollar tie bet",
+            "make {Amount} dollar tie bet",
+            "make a {Amount} dollar tie bet",
+            "do a {Amount} dollar tie bet",
+            "place side bet for {Amount} dollars",
+            "place a side bet for {Amount} dollars",
+            "make side bet for {Amount} dollars",
+            "make a side bet for {Amount} dollars",
+            "do side bet for {Amount} dollars",
+            "place tie bet for {Amount} dollars",
+            "place a tie bet for {Amount} dollars",
+            "make tie bet for {Amount} dollars",
+            "make a tie bet for {Amount} dollars",
+            "place side bet for {Amount}",
+            "place a side bet for {Amount}",
+            "make side bet for {Amount}",
+            "make a side bet for {Amount}",
+            "do side bet for {Amount}",
+            "place tie bet for {Amount}",
+            "place a tie bet for {Amount}",
+            "make tie bet for {Amount}",
+            "make a tie bet for {Amount}",
+            "do tie bet for {Amount}",
+            "place side bet",
+            "place a side bet",
+            "make side bet",
+            "make a side bet",
+            "do side bet",
+            "place tie bet",
+            "place a tie bet",
+            "make tie bet",
+            "make a tie bet",
+            "do tie bet"
+          ]
+        },
+        {
+          "name": "RemoveSideBetIntent",
+          "slots": [],
+          "samples": [
+            "remove side bet",
+            "remove a side bet",
+            "take down side bet",
+            "take down a side bet",
+            "end side bet",
+            "remove tie bet",
+            "remove a tie bet",
+            "take down tie bet",
+            "take down a tie bet",
+            "end tie bet"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
